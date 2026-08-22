@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.jpeg" alt="Sukkur IBA University Logo" width="70">
+        <h1>Sukkur IBA University</h1>
+        <p>Student Portal</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a> |
+        <a href="#profile">Profile</a> |
+        <a href="#courses">Courses</a> |
+        <a href="#results">Results</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>Welcome to the Student Portal. Here you can view your profile, courses, and results.</p>
+        </section>
+
+        <section id="profile">
+            <h2>Student Profile</h2>
+            <img src="images/profile.png" alt="Student photograph" width="150">
+            <table border="1" cellpadding="6">
+                <tr><th>Name</th><td>Sooraj</td></tr>
+                <tr><th>Roll Number</th><td>023-24-0104</td></tr>
+                <tr><th>Department</th><td>Computer Science (BSCS)</td></tr>
+                <tr><th>Semester</th><td>5 (Section D)</td></tr>
+                <tr><th>Email</th><td>sooraj.khatri04@example.com</td></tr>
+            </table>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <table border="1" cellpadding="6">
+                <caption>Semester 5 Courses</caption>
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Credit Hours</th>
+                        <th>Instructor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>CS-341</td><td>Compiler Construction</td><td>2+1</td><td>Faryal Shamsi</td></tr>
+                    <tr><td>CS-333</td><td>Operating Systems</td><td>2+1</td><td>Nisar Siddiqui</td></tr>
+                    <tr><td>CS-322</td><td>Computer Architecture</td><td>3</td><td>Dr. H Ali Shah</td></tr>
+                    <tr><td>MT-210</td><td>Linear Algebra</td><td>3</td><td>Dr. Arfan hyder</td></tr>
+                    <tr><td>CS-352</td><td>Web Engineering</td><td>2+1</td><td>Abdul Rehman Qureshi</td></tr>
+                    <tr><td>CS-360</td><td>Machine Learning</td><td>2+1</td><td>Dr. Zakria</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="results">
+            <h2>Results</h2>
+            <table border="1" cellpadding="6">
+                <caption>Semester 5 Marks</caption>
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Compiler Construction</td><td>88</td></tr>
+                    <tr><td>Operating Systems</td><td>85</td></tr>
+                    <tr><td>Computer Architecture</td><td>90</td></tr>
+                    <tr><td>Linear Algebra</td><td>82</td></tr>
+                    <tr><td>Web Technologies</td><td>91</td></tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python &amp; AI/ML</li>
+                <li>Java (Data Structures)</li>
+                <li>Cybersecurity</li>
+                <li>Git &amp; GitHub</li>
+            </ul>
+        </section>
+
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <article>
+                <h3>Mid-term Exam Schedule Released</h3>
+                <p>Check the department notice board for the updated mid-term timetable.</p>
+            </article>
+            <article>
+                <h3>Class Representative Meeting</h3>
+                <p>All CRs are required to attend the coordination meeting this Friday.</p>
+            </article>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br><br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea id="message" name="message" rows="5" cols="40"></textarea>
+                <br><br>
+                <button type="submit">Send</button>
+                <button type="reset">Clear</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sukkur IBA University | Email:  | Phone: +92-71-5630266</p>
+        <p>&copy; 2026 Sukkur IBA University</p>
+    </footer>
+</body>
+</html>
